@@ -1,0 +1,11 @@
+name: required-check
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  required-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "required workflow ran for ${GITHUB_SHA}"
