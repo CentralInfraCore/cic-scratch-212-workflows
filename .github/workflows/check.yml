@@ -5,4 +5,4 @@ jobs:
   reusable-check:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "permissive reusable: always green"
+      - run: echo "permissive reusable - always green"
